@@ -1,0 +1,511 @@
+{
+    "ro": [
+        {
+            "1": {
+                "name": "Abilități și aptitudini interculturale",
+                "subskills": [
+                    {
+                        "name": "Dobândirea de cunoștințe culturale",
+                        "statements": [
+                            {
+                                "id": 1,
+                                "type": "choice",
+                                "stmt": "Când vizitez o țară, caut informații despre ea (de exemplu climatul, cultura, geografia ...)."
+                            },
+                            {
+                                "id": 2,
+                                "type": "choice",
+                                "stmt": "Când interacționez sau lucrez cu persoane dintr-o altă țară, caut informații despre acea țară."
+                            },
+                            {
+                                "id": 3,
+                                "type": "choice",
+                                "stmt": "Citesc știri și ziare străine în limba mea maternă."
+                            },
+                            {
+                                "id": 4,
+                                "type": "choice",
+                                "stmt": "Citesc știri și ziare străine într-o limbă străină."
+                            },
+                            {
+                                "id": 5,
+                                "type": "choice",
+                                "stmt": "Citesc cărți scrise de autori din altă cultură."
+                            },
+                            {
+                                "id": 6,
+                                "type": "choice",
+                                "stmt": "Mă mențin informat cu tendințele culturale din țările pe care le vizitez."
+                            },
+                            {
+                                "id": 7,
+                                "type": "choice",
+                                "stmt": "Mă mențin informat cu practicile educaționale din diferitele țări pe care le vizitez."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Înțelegerea perspectivelor culturale",
+                        "statements": [
+                            {
+                                "id": 8,
+                                "type": "choice",
+                                "stmt": "Înțeleg și respect oamenii care provin din medii culturale diferite."
+                            },
+                            {
+                                "id": 9,
+                                "type": "choice",
+                                "stmt": "Înțeleg faptul că cultura poate influența comportamentul și este un factor important de luat în considerare."
+                            },
+                            {
+                                "id": 10,
+                                "type": "choice",
+                                "stmt": "Știu principalii factori culturali care influențează comportamentul (de exemplu religia, țara, clasa socială)."
+                            },
+                            {
+                                "id": 11,
+                                "type": "choice",
+                                "stmt": "În ceea ce privește o anumită cultură, îmi este ușor să identific ce similitudini există față de propria mea cultură și să stabiliesc care aspecte sunt mai diferite."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Îmbunătățirea identității culturale proprii",
+                        "statements": [
+                            {
+                                "id": 12,
+                                "type": "choice",
+                                "stmt": "Înțeleg caracteristicile cheie ale culturii mele și știu cum diferă față de celelalte culturi."
+                            },
+                            {
+                                "id": 13,
+                                "type": "choice",
+                                "stmt": "Când sunt într-un grup cu oameni din diferite culturi, pot să vorbesc liber despre propriile mele valori, originile mele, credințele mele."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Îmbunătățirea înțelegerii culturale",
+                        "statements": [
+                            {
+                                "id": 14,
+                                "type": "choice",
+                                "stmt": "Am învățat multe despre diferențele culturale, urmând un curs online internațional (de exemplu, un MOOC)."
+                            },
+                            {
+                                "id": 15,
+                                "type": "choice",
+                                "stmt": "Am învățat multe despre diferențele culturale prin predarea unui curs online internațional (de exemplu, un MOOC)."
+                            },
+                            {
+                                "id": 16,
+                                "type": "choice",
+                                "stmt": "Am făcut un stagiu într-o companie din străinătate."
+                            },
+                            {
+                                "id": 17,
+                                "type": "choice",
+                                "stmt": "Am locuit în străinătate într-un mediu imersiv (de exemplu, au pair, într-o familie, pentru slujba mea)."
+                            },
+                            {
+                                "id": 18,
+                                "type": "choice",
+                                "stmt": "Am colaborat în cadrul unui proiect cu colegi din străinătate."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Demonstrarea înțelegerii culturale",
+                        "statements": [
+                            {
+                                "id": 19,
+                                "type": "choice",
+                                "stmt": "Învăț și împărtășesc informații și cunoștințe cu oameni din alte medii culturale."
+                            },
+                            {
+                                "id": 20,
+                                "type": "choice",
+                                "stmt": "Mă asigur că metodele, conținutul, materialele și experiența de învățare generală sunt incluzive pentru toți studenții și reflectă așteptările și experiențele elevilor din diferitele domenii culturale."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Aplicarea conștientizării interculturale în circumstanțe provocatoare din punct de vedere cultural",
+                        "statements": [
+                            {
+                                "id": 21,
+                                "type": "choice",
+                                "stmt": "Vorbesc cu ușurință cu oameni din diferite culturi."
+                            },
+                            {
+                                "id": 22,
+                                "type": "choice",
+                                "stmt": "Sunt conștient și țin cont de stereotipurile culturale ale oamenilor cu care lucrez."
+                            },
+                            {
+                                "id": 23,
+                                "type": "choice",
+                                "stmt": "Am învățat să nu judec un coleg sau un partener, fără a verifica mai întâi dacă există vreun motiv cultural pentru comportmentul său."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "name": "Învățarea interactivă și colaborativă într-un mediu internațional autentic",
+                "subskills": [
+                    {
+                        "name": "Având abilități sporite de lucru în echipă",
+                        "statements": [
+                            {
+                                "id": 24,
+                                "type": "choice",
+                                "stmt": "Într-un grup internațional, colaborez pentru a atinge un obiectiv dat."
+                            },
+                            {
+                                "id": 25,
+                                "type": "choice",
+                                "stmt": "Acult cu atenție ceea ce au de spus ceilalți membri ai echipei."
+                            },
+                            {
+                                "id": 26,
+                                "type": "choice",
+                                "stmt": "Știu cum și când să folosesc o gamă largă de procese și metode utilizate într-o echipă (brainstorming, sondaje, întâlniri, etc.)."
+                            },
+                            {
+                                "id": 27,
+                                "type": "choice",
+                                "stmt": "Facilitez crearea și producerea de idei noi într-o echipă internațională."
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Colaborarea cu colegi din diferite discipline",
+                        "statements": [
+                            {
+                                "id": 28,
+                                "type": "choice",
+                                "stmt": "Sunt interesat de alte discipline decât ale mele."
+                            },
+                            {
+                                "id": 29,
+                                "type": "choice",
+                                "stmt": "Pot să schimb cunoștințe cu colegi din alte discipline decât ale mele."
+                            },
+                            {
+                                "id": 30,
+                                "type": "choice",
+                                "stmt": "Pot colabora cu colegi din alte discipline decât ale mele."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Colaborarea cu colegii în contextul unei experiențe internaționale de învățare",
+                        "statements": [
+                            {
+                                "id": 31,
+                                "type": "choice",
+                                "stmt": "Sunt capabil de a mă angaja într-o muncă colaborativă cu colegii în eventualitatea unei situații de predare internațională."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interacționarea cu resurse internaționale autentice într-o limbă străină",
+                        "statements": [
+                            {
+                                "id": 32,
+                                "type": "choice",
+                                "stmt": "Într-o țară străină, pot găsi și utiliza informații sau conținut într-o bibliotecă și / sau online, în limba acelei țări."
+                            },
+                            {
+                                "id": 33,
+                                "type": "choice",
+                                "stmt": "Pot folosi resurse autentice (de exemplu programe TV, radio, filme, articole, etc.) într-o limbă străină."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "name": "Învățarea bazată pe autonomie",
+                "subskills": [
+                    {
+                        "name": "Demonstrarea auto-orientării în luarea deciziilor cu privire la propria învățare",
+                        "statements": [
+                            {
+                                "id": 34,
+                                "type": "choice",
+                                "stmt": "Încurajez cursanții să-și stabilească propriile nevoi de învățare și să organizeze acțiuni pentru a le putea îndeplini."
+                            },
+                            {
+                                "id": 35,
+                                "type": "choice",
+                                "stmt": "Folosesc abordări pedagogice care sprijină învățarea autonomă."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "4": {
+                "name": "Învățarea în rețea",
+                "subskills": [
+                    {
+                        "name": "Angajarea în rețelele digitale",
+                        "statements": [
+                            {
+                                "id": 36,
+                                "type": "choice",
+                                "stmt": "Folosesc rețele sociale ca Twitter, Facebook, LinkedIn pentru a participa și pentru a-mi îmbunătăți predarea."
+                            },
+                            {
+                                "id": 37,
+                                "type": "choice",
+                                "stmt": "Folosesc rețele sociale pentru a colabora într-un cadru internațional."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Confruntarea cu complexitatea în învățarea în rețea",
+                        "statements": [
+                            {
+                                "id": 38,
+                                "type": "choice",
+                                "stmt": "Sunt în măsură să îmi îmbogățească propriul stil de învățare prin analizarea critică a contribuțiilor participanților la situații de învățare în rețea."
+                            },
+                            {
+                                "id": 39,
+                                "type": "choice",
+                                "stmt": "Pot aborda problemele nefundamentate și complexe care decurg din colaborarea într-un mediu internațional."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "name": "Media și Digital Literacy",
+                "subskills": [
+                    {
+                        "name": "Demonstrarea controlului studentului",
+                        "statements": [
+                            {
+                                "id": 40,
+                                "type": "choice",
+                                "stmt": "Pot controla mediul meu de predare și învățare."
+                            },
+                            {
+                                "id": 41,
+                                "type": "choice",
+                                "stmt": "Pot controla timpul pe care îl petrec online."
+                            },
+                            {
+                                "id": 42,
+                                "type": "choice",
+                                "stmt": "Am control asupra datelor personale pe care le folosesc în predarea online."
+                            },
+                            {
+                                "id": 43,
+                                "type": "choice",
+                                "stmt": "Pot controla interacțiunile online cu studenții."
+                            },
+                            {
+                                "id": 44,
+                                "type": "choice",
+                                "stmt": "Pot controla secvențierea materialelor instrucționale."
+                            },
+                            {
+                                "id": 45,
+                                "type": "choice",
+                                "stmt": "Pot controla selecția și designul conținutului de învățare."
+                            },
+                            {
+                                "id": 46,
+                                "type": "choice",
+                                "stmt": "Pot controla mediul de livrare."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Competența în utilizarea tehnologiilor de învățare online",
+                        "statements": [
+                            {
+                                "id": 47,
+                                "type": "choice",
+                                "stmt": "Sunt competent în utilizarea instrumentelor de învățare online (de exemplu, LMS, e-portofolii)."
+                            },
+                            {
+                                "id": 48,
+                                "type": "choice",
+                                "stmt": "Sunt competent în folosirea instrumentelor de comunicare on-line (mesagerie, conferințe pe web, forum, etc)."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Competența în evaluarea calității cursurilor și resurselor găsite online",
+                        "statements": [
+                            {
+                                "id": 49,
+                                "type": "choice",
+                                "stmt": "Pot evalua cursurile online din punctul de vedere al valorii adăugate pentru învățare."
+                            },
+                            {
+                                "id": 50,
+                                "type": "choice",
+                                "stmt": "Pot evalua calitatea resurselor educaționale pe care le găsesc din punctul de vedere al valorii adăugate pentru învățare."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "name": "Abilități auto-reglementate active de învățare",
+                "subskills": [
+                    {
+                        "name": "Capacitatea de a autoregla procesele de învățare",
+                        "statements": [
+                            {
+                                "id": 51,
+                                "type": "choice",
+                                "stmt": "Când proiectez o activitate de învățare, adpot dispoziții pentru studenții care își stabilesc propriile obiective și își planifică propriile sarcini."
+                            },
+                            {
+                                "id": 52,
+                                "type": "choice",
+                                "stmt": "Când proiectez o activitate de învățare, adopt dispoziții pentru ca studenții să își poată urmări progresul."
+                            },
+                            {
+                                "id": 53,
+                                "type": "choice",
+                                "stmt": "Când proiectez o activitate de învățare, am grijă ca studenții să reflecteze asupra realizării lor."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Capacitatea de a reflecta asupra experiențelor de învățare.",
+                        "statements": [
+                            {
+                                "id": 54,
+                                "type": "choice",
+                                "stmt": "Pot reflecta asupra feedback-ului (pozitiv sau negativ) din experiențele anterioare de predare."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Demonstrarea proprietății asupra învățării proprii (atitudine)",
+                        "statements": [
+                            {
+                                "id": 55,
+                                "type": "choice",
+                                "stmt": "Pot adapta obiectivele cursului la nevoile și obiectivele cursanților."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7": {
+                "name": "Open-mindedness",
+                "subskills": [
+                    {
+                        "name": "Abilitatea de a fi deschis și tolerant",
+                        "statements": [
+                            {
+                                "id": 56,
+                                "type": "choice",
+                                "stmt": "Înțeleg de ce sunt importante părerile, convingerile sau culturile altor oameni pentru acesția."
+                            },
+                            {
+                                "id": 57,
+                                "type": "choice",
+                                "stmt": "Sunt interesat să cunosc oameni care sunt diferiți de mine."
+                            },
+                            {
+                                "id": 58,
+                                "type": "choice",
+                                "stmt": "Îmi pot imagina cum vor reacționa oameni cu viziuni asupra lumii, credințe sau culturi diferite față de mine."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Demonstrarea încrederii în sine în interacțiunea cu colegii și cadrele didactice",
+                        "statements": [
+                            {
+                                "id": 59,
+                                "type": "choice",
+                                "stmt": "Creez un mediu în care studenții simt că pot să-și exprime opiniile și să gestioneze eventuale neînțelegeri."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dorința de a îmbunătăți competențele în limbile străine",
+                        "statements": [
+                            {
+                                "id": 60,
+                                "type": "choice",
+                                "stmt": "Am învățat / învăț cel puțin o limbă străină."
+                            },
+                            {
+                                "id": 61,
+                                "type": "choice",
+                                "stmt": "Citesc și ascult în una sau mai multe limbi străine."
+                            },
+                            {
+                                "id": 62,
+                                "type": "choice",
+                                "stmt": "Încerc, ori de câte ori este posibil, să port un dialog într-o limbă străină."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "8": {
+                "name": "Obținerea cunoștințelor asupra mobilității virtuale și a educației deschise",
+                "subskills": [
+                    {
+                        "name": "Capacitatea de a înțelege ce implică mobilitatea virtuală",
+                        "statements": [
+                            {
+                                "id": 63,
+                                "type": "choice",
+                                "stmt": "Stiu ce reprezintă mobilitatea virtuală."
+                            },
+                            {
+                                "id": 64,
+                                "type": "choice",
+                                "stmt": "Știu despre diferite programe de mobilitate virtuală.."
+                            },
+                            {
+                                "id": 65,
+                                "type": "choice",
+                                "stmt": "Sunt conștient de modul în care modalitățile diferite ale mobilității virtuale pot fi utile pentru învățare."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Înțelegerea educației deschise",
+                        "statements": [
+                            {
+                                "id": 66,
+                                "type": "choice",
+                                "stmt": "Știu ce presupune conceptul de Educație Deschisă."
+                            },
+                            {
+                                "id": 67,
+                                "type": "choice",
+                                "stmt": "Pot identifica diferitele oportunități oferite de Educația Deschisă."
+                            },
+                            {
+                                "id": 68,
+                                "type": "choice",
+                                "stmt": "Înțeleg diferența dintre Educația Deschisă și alte forme de învățare online."
+                            },
+                            {
+                                "id": 69,
+                                "type": "choice",
+                                "stmt": "Sunt conștient de potențialul deschiderii educației."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
