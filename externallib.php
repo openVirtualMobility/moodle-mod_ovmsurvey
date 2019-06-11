@@ -30,6 +30,56 @@ require_once($CFG->libdir . "/externallib.php");
  */
 class mod_ovmsurvey_external extends external_api {
     /**
+     * Describes the parameters for set_status.
+     *
+     * @return external_function_parameters
+     * @since  Moodle 3.4
+     */
+    public static function set_status_parameters() {
+        return new external_function_parameters(
+            array('status' => new external_value(PARAM_TEXT, 'The status name'))
+        );
+    }
+
+    public static function set_status($status) {
+        global $DB, $USER;
+
+        // Parameters validation.
+        $params = self::validate_parameters(self::set_status_parameters(),
+            array('status' => $status));
+
+        $status = $DB->get_record('ovmsurvey_status', array('userid' => $USER->id));
+
+        if ($status) {
+            $data = new \stdClass();
+            $data->id = $status->id;
+            $data->userid = $USER->id;
+            $data->status = $params['status'];
+            $DB->update_record('ovmsurvey_status', $data);
+        } else {
+            $data = $DB->insert_record('ovmsurvey_status', array(
+                'status' => $params['status'],
+                'userid' => $USER->id));
+        }
+
+        $DB->delete_records('ovmsurvey_response', array(
+            'user_id' => $USER->id));
+
+        return $data->status;
+    }
+
+    /**
+     * Returns description of method result value.
+     *
+     * @return external_description
+     * @since Moodle 3.4
+     */
+    public static function set_status_returns() {
+        return new external_value(PARAM_TEXT, 'The user status.');
+    }
+
+
+    /**
      * Describes the parameters for get_answers.
      *
      * @return external_function_parameters

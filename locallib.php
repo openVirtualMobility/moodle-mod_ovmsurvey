@@ -38,6 +38,17 @@ function get_lang($lang = 'en') {
     return $lang;
 }
 
+function get_status() {
+    global $DB, $USER;
+
+    $status = $DB->get_record('ovmsurvey_status', array('userid' => $USER->id));
+    if ($status && $status->status) {
+        return $status->status;
+    }
+
+    return 'student';
+}
+
 function get_question_total($skill) {
     $count = 0;
 

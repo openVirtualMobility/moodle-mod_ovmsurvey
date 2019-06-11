@@ -38,5 +38,28 @@ function xmldb_ovmsurvey_upgrade($oldversion) {
         upgrade_mod_savepoint(true, 2019060704, 'ovmsurvey');
     }
 
+    if ($oldversion < 2019061105) {
+        $table = new xmldb_table('ovmsurvey_status');
+
+        $table->add_field('id', XMLDB_TYPE_INTEGER, '10', null, XMLDB_NOTNULL, XMLDB_SEQUENCE, null);
+        $table->add_field('userid', XMLDB_TYPE_INTEGER, '10', null, null, null, null);
+        $table->add_field('status', XMLDB_TYPE_CHAR, '255', null, null, null, null);
+
+        // Adding keys to table.
+        $table->add_key('primary', XMLDB_KEY_PRIMARY, array('id'));
+        $table->add_key('userid', XMLDB_KEY_FOREIGN, array('userid'), 'user', array('id'));
+
+        // Create table.
+        if ($dbman->table_exists($table)) {
+            $dbman->drop_table($table);
+        }
+
+        if (!$dbman->table_exists($table)) {
+            $dbman->create_table($table);
+        }
+
+        upgrade_mod_savepoint(true, 2019061105, 'ovmsurvey');
+    }
+
     return true;
 }

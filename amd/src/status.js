@@ -1,4 +1,5 @@
-define(['jquery', 'core/str'], function($, str) {
+define(['jquery', 'core/str', 'core/ajax', 'core/notification'],
+function($, str, ajax, notification) {
     var Status = function() {
         st = localStorage.getItem('ovms-status');
 
@@ -17,18 +18,24 @@ define(['jquery', 'core/str'], function($, str) {
         }
 
         $('.status-item').bind('click', function() {
-            localStorage.setItem('ovms-status', $(this).data('value'));
+            var status = $(this).data('value');
+            localStorage.setItem('ovms-status', status);
 
-            str.get_string($(this).data('value'), 'ovmsurvey')
-                .done(function(s) {
-                    $('#ovm-status').text(s);
-                    $('#status_picker').hide();
-
-                    notification.addNotification({
-                        message: s,
-                        type: 'success'
-                    });
-                });
+            ajax.call([{
+                methodname: 'mod_ovmsurvey_set_status',
+                args: {
+                    status: status
+                },
+                done: function(data) {
+                    str.get_string(data, 'ovmsurvey')
+                        .done(function(s) {
+                            $('#ovm-status').text(s);
+                            $('#status_picker').hide();
+                            window.location.reload();
+                        });
+                }.bind(this),
+                fail: notification.exception
+            }]);
         });
 
         $('#ovm-status').bind('click', function() {

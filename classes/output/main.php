@@ -36,8 +36,8 @@ class main implements renderable, templatable {
         $this->skillid = $skillid;
     }
 
-    private static function get_json($lang, $skillid) {
-        $string = file_get_contents(dirname(__FILE__) . '/../../json/'.$lang.'/students.json');
+    private static function get_json($lang, $status, $skillid) {
+        $string = file_get_contents(dirname(__FILE__) . '/../../json/'.$lang.'/'.$status.'.json');
         $json = json_decode($string, true);
         $data = $json[$lang][0][$skillid + 1];
         return $data;
@@ -53,7 +53,8 @@ class main implements renderable, templatable {
         global $CFG;
         require_once($CFG->dirroot . '/mod/ovmsurvey/locallib.php');
 
-        $statements = self::get_json($this->lang, $this->skillid);
+        $status = get_status();
+        $statements = self::get_json($this->lang, $status, $this->skillid);
 
         $total = get_question_total($statements);
 

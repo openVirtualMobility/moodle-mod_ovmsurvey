@@ -24,6 +24,14 @@
 defined('MOODLE_INTERNAL') || die;
 
 $functions = array(
+    'mod_ovmsurvey_set_status' => array(
+        'classname'     => 'mod_ovmsurvey_external',
+        'methodname'    => 'set_status',
+        'description'   => 'Set the user status',
+        'type'          => 'write',
+        'ajax'          => true,
+        'capabilities'  => ''
+    ),
     'mod_ovmsurvey_get_answers' => array(
         'classname'     => 'mod_ovmsurvey_external',
         'methodname'    => 'get_answers',
