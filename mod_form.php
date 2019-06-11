@@ -51,7 +51,7 @@ class mod_ovmsurvey_mod_form extends moodleform_mod {
         $json = json_decode($string, true);
         $arr = $json[$lang][0];
         $skills = [];
-        foreach($arr as $key => $val) {
+        foreach ($arr as $key => $val) {
             array_push($skills, $val['name']);
         }
 

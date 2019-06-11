@@ -27,20 +27,9 @@ function xmldb_ovmsurvey_upgrade($oldversion) {
     global $DB;
     $dbman = $DB->get_manager();
 
-    if ($oldversion < 2019060703) {
-        $table = new xmldb_table('ovmsurvey_response');
-        $field =  new xmldb_field('survey_type');
-
-        if ($dbman->field_exists($table, $field)) {
-            $dbman->drop_field($table, $field);
-        }
-
-        upgrade_mod_savepoint(true, 2019060703, 'ovmsurvey');
-    }
-
     if ($oldversion < 2019060704) {
         $table = new xmldb_table('ovmsurvey_response');
-        $field =  new xmldb_field('step_id');
+        $field = new xmldb_field('step_id');
 
         if ($dbman->field_exists($table, $field)) {
             $dbman->drop_field($table, $field);

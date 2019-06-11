@@ -22,14 +22,11 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version  = 2019061101;   // The (date) version of this module + 2 extra digital for daily versions
-                                  // This version number is displayed into /admin/forms.php
-                                  // TODO: if ever this plugin get branched, the old branch number
-                                  // will not be updated to the current date but just incremented. We will
-                                  // need then a $plugin->release human friendly date. For the moment, we use
-                                  // display this version number with userdate (dev friendly)
-$plugin->requires = 2010112400;   // Requires this Moodle version - at least 2.0
+defined('MOODLE_INTERNAL') || die();
+
+$plugin->version  = 2019061103;
+$plugin->requires = 2010112400;
 $plugin->component = 'mod_ovmsurvey';
 $plugin->cron = 0;
-$plugin->release = '1';
+$plugin->release = '1.1';
 $plugin->maturity = MATURITY_STABLE;

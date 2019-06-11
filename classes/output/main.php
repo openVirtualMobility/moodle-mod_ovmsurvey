@@ -39,7 +39,7 @@ class main implements renderable, templatable {
     private static function get_json($lang, $skillid) {
         $string = file_get_contents(dirname(__FILE__) . '/../../json/'.$lang.'/students.json');
         $json = json_decode($string, true);
-        $data = $json[$lang][0][$skillid+1];
+        $data = $json[$lang][0][$skillid + 1];
         return $data;
     }
 
@@ -57,12 +57,18 @@ class main implements renderable, templatable {
 
         $total = get_question_total($statements);
 
+        $tooltip = '<span>'.get_string('scale_info_1', 'mod_ovmsurvey');
+        $tooltip .= '<br>'.get_string('scale_info_4', 'mod_ovmsurvey').'</span>';
+
         return [
             'cmid' => $this->cmid,
             'name' => $statements['name'],
             'surveyid' => $this->surveyid,
             'subskills' => $statements['subskills'],
-            'total' => $total
+            'total' => $total,
+            'tooltip' => $tooltip,
+            'survey_end' => get_string('end', 'mod_ovmsurvey'),
+            'view_report' => get_string('view_report', 'mod_ovmsurvey')
         ];
     }
 }

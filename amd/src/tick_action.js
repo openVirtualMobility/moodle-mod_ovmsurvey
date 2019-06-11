@@ -13,12 +13,14 @@ function($, ajax, notification) {
         var elem = $(element.target);
         var stmtid = elem.data('id');
         var value = elem.data('value');
+        var status = localStorage.getItem('ovms-status');
 
         if (stmtid != "" && value != "") {
             ajax.call([{
                 methodname: 'mod_ovmsurvey_set_answer',
                 args: {
                     surveyid: this._surveyid,
+                    status: status ? status : '',
                     stmtid: stmtid,
                     value: value
                 },
@@ -26,7 +28,7 @@ function($, ajax, notification) {
                     $(element.target).parent().find('button').removeClass('active');
                     $(element.target).addClass('active');
                     $(element.target).parent().parent().parent().parent().parent().find('.check-svg').removeClass('hidden');
-                    
+
                     if (this._totalStmts == data) {
                         this.showReviewButton();
                     }
@@ -39,7 +41,7 @@ function($, ajax, notification) {
     };
 
     TickAction.prototype.showReviewButton = function() {
-        return $('#ovmsurvey-review-button').show();
+        return $('#ovmsurvey-review').show();
     }
 
     return TickAction;

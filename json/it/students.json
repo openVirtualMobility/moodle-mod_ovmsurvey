@@ -1,0 +1,536 @@
+{
+    "it": [
+        {
+            "1": {
+                "name": "Attitudini e competenze interculturali",
+                "subskills": [
+                    {
+                        "name": "Acquisire conoscenza culturale",
+                        "statements": [
+                            {
+                                "id": 1,
+                                "type": "choice",
+                                "stmt": "Quando vado all'estero cerco informazioni in merito (ad es. climatiche, culturali, geografiche…)."
+                            },
+                            {
+                                "id": 2,
+                                "type": "choice",
+                                "stmt": "Quando sto interagendo o lavorando con persone provenienti da Paesi diversi, cerco informazioni in merito."
+                            },
+                            {
+                                "id": 3,
+                                "type": "choice",
+                                "stmt": "Leggo le notizie e i quotidiani esteri nella mia madrelingua."
+                            },
+                            {
+                                "id": 4,
+                                "type": "choice",
+                                "stmt": "Leggo le notizie e i quotidiani esteri in lingua straniera."
+                            },
+                            {
+                                "id": 5,
+                                "type": "choice",
+                                "stmt": "Leggo libri scritti da autori provenienti da un'altra cultura."
+                            },
+                            {
+                                "id": 6,
+                                "type": "choice",
+                                "stmt": "Rimango aggiornato sulle tendenze culturali del Paese che visito."
+                            },
+                            {
+                                "id": 7,
+                                "type": "choice",
+                                "stmt": "Rimango aggiornato sui metodi educativi nei diversi Paesi che visito."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Comprendere prospettive culturali",
+                        "statements": [
+                            {
+                                "id": 8,
+                                "type": "choice",
+                                "stmt": "Comprendo e rispetto le persone provenienti da contesti culturali differenti."
+                            },
+                            {
+                                "id": 9,
+                                "type": "choice",
+                                "stmt": "Comprendo che la cultura può influenzare il comportamento ed è un importante fattore da prendere in considerazione."
+                            },
+                            {
+                                "id": 10,
+                                "type": "choice",
+                                "stmt": "Conosco i principali fattori culturali che influenzano il comportamento (ad es. religione, Paese, classe sociale)."
+                            },
+                            {
+                                "id": 11,
+                                "type": "choice",
+                                "stmt": "In merito a una determinata cultura, per me è facile identificare i punti in comune e le differenze con la mia."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Valorizzare la propria identità culturale",
+                        "statements": [
+                            {
+                                "id": 12,
+                                "type": "choice",
+                                "stmt": "Comprendo le caratteristiche chiave della mia cultura e so in cosa si differenzia con le altre culture."
+                            },
+                            {
+                                "id": 13,
+                                "type": "choice",
+                                "stmt": "Quando sono in un gruppo con persone provenienti da culture diverse, sono in grado di parlare liberamente dei miei valori, delle mie origini e dei miei ideali."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Valorizzare comprensione culturale",
+                        "statements": [
+                            {
+                                "id": 14,
+                                "type": "choice",
+                                "stmt": "Ho appreso molto sulle differenze culturali seguendo un corso internazionale online (ad es. un MOOC)."
+                            },
+                            {
+                                "id": 15,
+                                "type": "choice",
+                                "stmt": "Ho svolto un tirocinio in un'azienda all'estero."
+                            },
+                            {
+                                "id": 16,
+                                "type": "choice",
+                                "stmt": "Ho soggiornato all'estero in un ambiente coinvolgente (ad es. alla pari, in una famiglia, per lavoro)."
+                            },
+                            {
+                                "id": 17,
+                                "type": "choice",
+                                "stmt": "Ho collaborato a un progetto con colleghi stranieri."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dimostrare comprensione culturale",
+                        "statements": [
+                            {
+                                "id": 18,
+                                "type": "choice",
+                                "stmt": "Durante un'esperienza di apprendimento (online o frontale) comunico con i miei colleghi su altre tematiche (notizie, usanze, cucina ecc.)."
+                            },
+                            {
+                                "id": 19,
+                                "type": "choice",
+                                "stmt": "Apprendo e condivido informazioni e conoscenze con persone provenienti da contesti culturali differenti."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Applicare la consapevolezza interculturale in circostanze culturalmente complesse",
+                        "statements": [
+                            {
+                                "id": 20,
+                                "type": "choice",
+                                "stmt": "Sono in grado di parlare facilmente con persone provenienti da culture diverse."
+                            },
+                            {
+                                "id": 21,
+                                "type": "choice",
+                                "stmt": "ISono consapevole e prendo in considerazione gli stereotipi culturali delle persone con cui lavoro."
+                            },
+                            {
+                                "id": 22,
+                                "type": "choice",
+                                "stmt": "Ho imparato a non giudicare un collega o un compagno senza essermi prima accertato che ci sia una ragione culturale dietro al suo comportamento."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "name": "Apprendimento interattivo e collaborativo in un autentico contesto internazionale",
+                "subskills": [
+                    {
+                        "name": "Avere migliorato le capacità di lavoro di gruppo",
+                        "statements": [
+                            {
+                                "id": 23,
+                                "type": "choice",
+                                "stmt": "In un gruppo internazionale, collaboro al fine di conseguire un determinato obiettivo."
+                            },
+                            {
+                                "id": 24,
+                                "type": "choice",
+                                "stmt": "Partecipo attivamente a un'attività di gruppo in condizioni di parità."
+                            },
+                            {
+                                "id": 25,
+                                "type": "choice",
+                                "stmt": "Ascolto attentamente ciò che gli altri membri del gruppo hanno da dire."
+                            },
+                            {
+                                "id": 26,
+                                "type": "choice",
+                                "stmt": "So come e quando ricorrere a un'ampia gamma di processi e metodi utilizzati in un gruppo (brainstorming, sondaggi, riunioni, ecc.)."
+                            },
+                            {
+                                "id": 27,
+                                "type": "choice",
+                                "stmt": "Facilito la creazione e la produzione di nuove idee in un gruppo internazionale."
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Collaborare con colleghi di discipline diverse",
+                        "statements": [
+                            {
+                                "id": 28,
+                                "type": "choice",
+                                "stmt": "Sono interessato a discipline diverse dalla mia."
+                            },
+                            {
+                                "id": 29,
+                                "type": "choice",
+                                "stmt": "Sono in grado di scambiare conoscenze con colleghi di discipline diverse dalla mia."
+                            },
+                            {
+                                "id": 30,
+                                "type": "choice",
+                                "stmt": "Sono in grado di collaborare con colleghi di discipline diverse dalla mia."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Collaborare con colleghi all'interno del contesto di esperienza di apprendimento internazionale",
+                        "statements": [
+                            {
+                                "id": 31,
+                                "type": "choice",
+                                "stmt": "Sono in grado di dedicarmi a un lavoro collaborativo con colleghi in un contesto di apprendimento internazionale."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interagire con autentiche risorse internazioni in lingua straniera",
+                        "statements": [
+                            {
+                                "id": 32,
+                                "type": "choice",
+                                "stmt": "In un Paese straniero, sono in grado di trovare e usufruire di informazioni o contenuti in una biblioteca e/o online nella lingua del Paese."
+                            },
+                            {
+                                "id": 33,
+                                "type": "choice",
+                                "stmt": "Sono in grado di utilizzare risorse autentiche (ad es. TV o programmi radio, film, articoli ecc.) in lingua straniera."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "name": "Apprendimento autonomo",
+                "subskills": [
+                    {
+                        "name": "Dimostrare determinazione nel prendere decisioni sul proprio apprendimento",
+                        "statements": [
+                            {
+                                "id": 34,
+                                "type": "choice",
+                                "stmt": "Sono in grado di identificare le mie esigenze di apprendimento e prendere iniziative per soddisfarle."
+                            },
+                            {
+                                "id": 35,
+                                "type": "choice",
+                                "stmt": "Sono in grado di pormi degli obiettivi con criteri di successo per la mia crescita personale."
+                            },
+                            {
+                                "id": 36,
+                                "type": "choice",
+                                "stmt": "Penso in modo critico alle ragioni e agli obiettivi del mio apprendimento."
+                            },
+                            {
+                                "id": 37,
+                                "type": "choice",
+                                "stmt": "Sono in grado di conciliare gli studi e/o il lavoro con altri aspetti della mia vita."
+                            },
+                            {
+                                "id": 38,
+                                "type": "choice",
+                                "stmt": "Conosco i miei punti di forza e di criticità in un contesto di apprendimento."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dimostrare apprendimento autonomo",
+                        "statements": [
+                            {
+                                "id": 39,
+                                "type": "choice",
+                                "stmt": "Sono in grado di organizzare autonomamente il mio apprendimento individuale"
+                            },
+                            {
+                                "id": 40,
+                                "type": "choice",
+                                "stmt": "Sono in grado di studiare in modo flessibile, indipendentemente dalll'orario e dal luogo."
+                            },
+                            {
+                                "id": 41,
+                                "type": "choice",
+                                "stmt": "Sono sicuro nell'uso di diversi strumenti digitali in un contesto educativo (ad es., ambienti informatici per la gestione di corsi come Moodle, o e-portfolio come Mahara)."
+                            },
+                            {
+                                "id": 42,
+                                "type": "choice",
+                                "stmt": "Dispongo di un ambiente di apprendimento personalizzato per gestire le informazioni, creare conoscenze ed entrare in contatto con gli altri."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "4": {
+                "name": "Apprendimento online",
+                "subskills": [
+                    {
+                        "name": "Avvalersi della rete digitale",
+                        "statements": [
+                            {
+                                "id": 43,
+                                "type": "choice",
+                                "stmt": "Utilizzo social network come Twitter, Facebook, LinkedIn per partecipare alle reti e e migliorare il mio apprendimento."
+                            },
+                            {
+                                "id": 44,
+                                "type": "choice",
+                                "stmt": "Utilizzo i social network per collaborare nel quadro internazionale."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Affrontare la complessità dell'apprendimento online",
+                        "statements": [
+                            {
+                                "id": 45,
+                                "type": "choice",
+                                "stmt": "Sono in grado di arricchire il mio insegnamento analizzando in modo critico i contributi dei partecipanti in contesti di apprendimento online."
+                            },
+                            {
+                                "id": 46,
+                                "type": "choice",
+                                "stmt": "Sono in grado di risolvere problemi non chiaramente definiti e complessi derivanti dalla collaborazione in un quadro internazionale."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "name": "Educazione ai Media e Alfabetizzazione Digitale",
+                "subskills": [
+                    {
+                        "name": "Dimostrare la padronanza dell'alunno",
+                        "statements": [
+                            {
+                                "id": 47,
+                                "type": "choice",
+                                "stmt": "Sono in grado di padroneggiare il mio ambiente di apprendimento"
+                            },
+                            {
+                                "id": 48,
+                                "type": "choice",
+                                "stmt": "Sono in grado di gestire il tempo che trascorro online."
+                            },
+                            {
+                                "id": 49,
+                                "type": "choice",
+                                "stmt": "Ho pieno controllo dei dati personali che utilizzo nell'apprendimento online."
+                            },
+                            {
+                                "id": 50,
+                                "type": "choice",
+                                "stmt": "Sono in grado di padroneggiare le interazioni online con un docente o altri insegnanti."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Essere competente nell'uso delle tecnologie di apprendimento online",
+                        "statements": [
+                            {
+                                "id": 51,
+                                "type": "choice",
+                                "stmt": "Sono competente nell'uso degli strumenti di apprendimento online (ad es. LMS, e-portfolio)."
+                            },
+                            {
+                                "id": 52,
+                                "type": "choice",
+                                "stmt": "Sono competente nell'uso degli strumenti di comunicazione online (messaggistica, conferenze web, forum ecc.)."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Essere competente nel valutare la qualità dei corsi e delle risorse trovate online",
+                        "statements": [
+                            {
+                                "id": 53,
+                                "type": "choice",
+                                "stmt": "Sono in grado di valutare i corsi online dal punto di vista del valore aggiunto per il mio apprendimento."
+                            },
+                            {
+                                "id": 54,
+                                "type": "choice",
+                                "stmt": "Sono in grado di valutare la qualità delle risorse educative che trovo, dal punto di vista del valore aggiunto per il mio insegnamento."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "name": "Competenze di autogestione attiva dell'alunno",
+                "subskills": [
+                    {
+                        "name": "Essere in grado di autogestire i processi di apprendimento",
+                        "statements": [
+                            {
+                                "id": 55,
+                                "type": "choice",
+                                "stmt": "Quando svolgo un'attività didattica, fisso i miei obiettivi e pianifico i miei compiti."
+                            },
+                            {
+                                "id": 56,
+                                "type": "choice",
+                                "stmt": "Quando svolgo un'attività didattica, monitoro i miei progressi."
+                            },
+                            {
+                                "id": 57,
+                                "type": "choice",
+                                "stmt": "Quando svolgo un'attività didattica, rifletto sul mio risultato."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Essere in grado di riflettere sulle esperienze di apprendimento",
+                        "statements": [
+                            {
+                                "id": 58,
+                                "type": "choice",
+                                "stmt": "Sono in grado di riflettere sui feedback (positivi o negativi) di precedenti esperienze di apprendimento."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dimostrare padronanza del proprio apprendimento (attitudine)",
+                        "statements": [
+                            {
+                                "id": 59,
+                                "type": "choice",
+                                "stmt": "Sono in grado di mettere in relazione gli obiettivi del corso con le mie esigenze e i miei obiettivi."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7": {
+                "name": "Spirito di apertura",
+                "subskills": [
+                    {
+                        "name": "Essere di mentalità aperta e tollerante",
+                        "statements": [
+                            {
+                                "id": 60,
+                                "type": "choice",
+                                "stmt": "Capisco il motivo per il quale le visioni del mondo, gli ideali o le culture altrui sono importanti per loro."
+                            },
+                            {
+                                "id": 61,
+                                "type": "choice",
+                                "stmt": "Mi interessa conoscere persone che sono diverse da me."
+                            },
+                            {
+                                "id": 62,
+                                "type": "choice",
+                                "stmt": "Posso immaginare come reagiranno persone con visioni del mondo, ideali o culture diverse dalle mie a questioni di rilievo."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dimostrare sicurezza nell'interazione con colleghi e corpo docente",
+                        "statements": [
+                            {
+                                "id": 63,
+                                "type": "choice",
+                                "stmt": "Sono in grado di esprimere un'opinione a un gruppo, pur sapendo che la maggioranza non sarà d'accordo con me."
+                            },
+                            {
+                                "id": 64,
+                                "type": "choice",
+                                "stmt": "Mi sento in grado di parlare delle mie attività (studi, lavoro, impegno, vita privata, ecc.) alle persone con cui sto imparando (colleghi, insegnanti)."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dimostrare volontà di migliorare la conoscenza delle lingue straniere",
+                        "statements": [
+                            {
+                                "id": 65,
+                                "type": "choice",
+                                "stmt": "Ho imparato/Sto imparando almeno una lingua straniera."
+                            },
+                            {
+                                "id": 66,
+                                "type": "choice",
+                                "stmt": "Leggo e ascolto in una o più lingue straniere."
+                            },
+                            {
+                                "id": 67,
+                                "type": "choice",
+                                "stmt": "Cerco, se possibile, di instaurare un dialogo in lingua straniera."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "8": {
+                "name": "Acquisire Conoscenze della Mobilità Virtuale ed Educazione Aperta",
+                "subskills": [
+                    {
+                        "name": "Comprendere la Mobilità Virtuale",
+                        "statements": [
+                            {
+                                "id": 68,
+                                "type": "choice",
+                                "stmt": "So in cosa consiste la mobilità virtuale."
+                            },
+                            {
+                                "id": 69,
+                                "type": "choice",
+                                "stmt": "Conosco diversi programmi di mobilità virtuale."
+                            },
+                            {
+                                "id": 70,
+                                "type": "choice",
+                                "stmt": "Sono consapevole di come diverse modalità di mobilità virtuale possano essere utili per l'apprendimento."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Comprendere l'Educazione Aperta",
+                        "statements": [
+                            {
+                                "id": 71,
+                                "type": "choice",
+                                "stmt": "So cosa presuppone il concetto di Educazione Aperta."
+                            },
+                            {
+                                "id": 72,
+                                "type": "choice",
+                                "stmt": "Sono in grado di individuare le opportunità offerte dall'Educazione Aperta."
+                            },
+                            {
+                                "id": 73,
+                                "type": "choice",
+                                "stmt": "Comprendo la differenza fra Educazione Aperta e altre forme di apprendimento online."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

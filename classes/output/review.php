@@ -58,7 +58,7 @@ class review implements renderable, templatable {
 
         foreach ($surveys as $survey) {
             $records = $DB->get_records('ovmsurvey_response', array(
-                'survey_id' => $survey->id, 
+                'survey_id' => $survey->id,
                 'user_id' => $USER->id));
 
             foreach ($datas as $k => $data) {

@@ -18,5 +18,20 @@
     @template mod_ovmsurvey/header
 }}
 <div id="ovmsurvey-header-{{uniqid}}" class="ovmsurvey-header" data-region="ovmsurvey-header">
-    <h4 class="ovmsurvey-competency">{{{name}}}</h4>
+    <div class="alert alert-info">{{{instructions}}}</div>
+    <h3 class="ovmsurvey-competency">{{{name}}}</h3>
+
+    <div class="col-12">
+        {{{my_status}}} <span id="ovm-status" class="btn btn-secondary">{{{status}}}</span>
+
+        <ul id="status_picker" class="hidden">
+            <li class="status-item" data-value="student">{{{student}}}</li>
+            <li class="status-item" data-value="teacher">{{{teacher}}}</li>
+        </ul>
+    </div>
 </div>
+{{#js}}
+require(['mod_ovmsurvey/status'], function(Status) {
+    new Status();
+});
+{{/js}}

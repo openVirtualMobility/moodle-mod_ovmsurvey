@@ -37,8 +37,7 @@ function ovmsurvey_add_instance($data, $mform) {
     $data->timemodified = time();
     $data->id = $DB->insert_record('ovmsurvey', $data);
 
-    // we need to use context now, so we need to make sure all needed info is already in db
-    $DB->set_field('course_modules', 'instance', $data->id, array('id'=>$cmid));
+    $DB->set_field('course_modules', 'instance', $data->id, array('id' => $cmid));
     $context = context_module::instance($cmid);
 
     $completiontimeexpected = !empty($data->completionexpected) ? $data->completionexpected : null;
@@ -80,14 +79,14 @@ function ovmsurvey_update_instance($data, $mform) {
 function ovmsurvey_delete_instance($id) {
     global $DB;
 
-    if (!$ovmsurvey = $DB->get_record('ovmsurvey', array('id'=>$id))) {
+    if (!$ovmsurvey = $DB->get_record('ovmsurvey', array('id' => $id))) {
         return false;
     }
 
     $cm = get_coursemodule_from_instance('ovmsurvey', $id);
     \core_completion\api::update_completion_date_event($cm->id, 'ovmsurvey', $ovmsurvey->id, null);
 
-    $DB->delete_records('ovmsurvey', array('id'=>$ovmsurvey->id));
+    $DB->delete_records('ovmsurvey', array('id' => $ovmsurvey->id));
 
     return true;
 }

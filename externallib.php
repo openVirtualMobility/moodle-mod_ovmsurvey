@@ -84,28 +84,30 @@ class mod_ovmsurvey_external extends external_api {
         return new external_function_parameters(
             array(
                 'surveyid' => new external_value(PARAM_INT, 'The survey ID'),
+                'status' => new external_value(PARAM_TEXT, 'The user status'),
                 'stmtid' => new external_value(PARAM_INT, 'The statement ID'),
                 'value' => new external_value(PARAM_INT, 'The value'),
             )
         );
     }
 
-    public static function set_answer($surveyid, $stmtid, $value) {
+    public static function set_answer($surveyid, $status, $stmtid, $value) {
         global $DB, $USER;
 
         // Parameters validation.
         $params = self::validate_parameters(self::set_answer_parameters(),
-            array('surveyid' => $surveyid, 'stmtid' => $stmtid, 'value' => $value));
+            array('surveyid' => $surveyid, 'status' => $status, 'stmtid' => $stmtid, 'value' => $value));
 
         $dataobject = new \stdClass();
         $dataobject->survey_id = $params['surveyid'];
+        $dataobject->survey_type = $params['status'];
         $dataobject->question_id = $params['stmtid'];
         $dataobject->user_id = $USER->id;
         $dataobject->response = $params['value'];
         $dataobject->timecreated = \time();
-    
+
         $data = $DB->get_record('ovmsurvey_response', array(
-            'survey_id' => $params['surveyid'], 
+            'survey_id' => $params['surveyid'],
             'question_id' => $params['stmtid'],
             'user_id' => $USER->id));
 

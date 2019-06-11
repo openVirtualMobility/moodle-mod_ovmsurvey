@@ -29,8 +29,23 @@ use stdClass;
 
 class header implements renderable, templatable {
 
-    public function __construct($name) {
+    public function __construct($surveyid, $name) {
+        $this->surveyid = $surveyid;
         $this->name = $name;
+    }
+
+    private static function get_status($surveyid) {
+        global $DB, $USER;
+
+        $results = $DB->get_records('ovmsurvey_response', array('survey_id' => $surveyid, 'user_id' => $USER->id));
+
+        foreach ($results as $res) {
+            if (isset($res->survey_type)) {
+                return $res->survey_type;
+            }
+        }
+
+        return '';
     }
 
     /**
@@ -40,8 +55,15 @@ class header implements renderable, templatable {
      * @return stdClass
      */
     public function export_for_template(renderer_base $output) {
+        $status = self::get_status($this->surveyid);
+
         return [
-            'name' => $this->name
+            'name' => $this->name,
+            'instructions' => get_string('instructions', 'mod_ovmsurvey'),
+            'my_status' => get_string('my_status', 'mod_ovmsurvey'),
+            'student' => get_string('student', 'mod_ovmsurvey'),
+            'teacher' => get_string('teacher', 'mod_ovmsurvey'),
+            'status' => $status
         ];
     }
 }

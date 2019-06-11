@@ -33,14 +33,14 @@ function($, ajax, notification) {
         for(var i = 0; i < len; i++) {
             var qid = data[i]['question_id'];
             var rid = data[i]['response'];
-            var elem = $(this._region).find('.ovm-option[data-id="'+qid+'"][data-value="'+rid+'"]');
+            var elem = $(this._region).find('.ovm-option[data-id="' + qid + '"][data-value="' + rid + '"]');
             elem.addClass('active');
             elem.parent().parent().parent().parent().parent().find('.check-svg').removeClass('hidden');
         }
     };
 
     GetAnswers.prototype.showReviewButton = function() {
-        return $('#ovmsurvey-review-button').show();
+        return $('#ovmsurvey-review').show();
     }
 
     return GetAnswers;

@@ -23,6 +23,7 @@
 
 require_once(dirname(__FILE__) . '/../../config.php');
 require_once($CFG->dirroot . '/mod/ovmsurvey/lib.php');
+require_once($CFG->dirroot . '/mod/ovmsurvey/locallib.php');
 
 global $USER;
 
@@ -30,12 +31,7 @@ $id       = required_param('id', PARAM_INT);        // Course module ID.
 $u        = optional_param('u', 0, PARAM_INT);         // URL instance id.
 $redirect = optional_param('redirect', 0, PARAM_BOOL);
 
-$lang = 'en';
-if (isset($_GET['lang'])) {
-    $lang = $_GET['lang'];
-} else {
-    $lang = $CFG->lang;
-}
+$lang = get_lang();
 
 if ($u) {  // Two ways to specify the module.
     $survey = $DB->get_record('ovmsurvey', array('id' => $u), '*', MUST_EXIST);
@@ -57,7 +53,7 @@ $url = new moodle_url('/mod/ovmsurvey/view.php', array('id' => $cm->id));
 
 $PAGE->set_url($url);
 $PAGE->set_context($context);
-$PAGE->set_title(get_string('title', 'ovmsurvey'));
+$PAGE->set_title($survey->name);
 $PAGE->set_heading($course->fullname);
 
 echo $OUTPUT->header();
@@ -66,7 +62,7 @@ echo $OUTPUT->box_start('generalbox mod_ovmsurvey-box boxaligncenter');
 // Get the mod config.
 $config = get_config('mod_visio');
 
-$header = new \mod_ovmsurvey\output\header($survey->name);
+$header = new \mod_ovmsurvey\output\header($survey->id, $survey->name);
 $output = $PAGE->get_renderer('mod_ovmsurvey');
 echo $output->render($header);
 

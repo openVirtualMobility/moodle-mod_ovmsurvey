@@ -1,0 +1,511 @@
+{
+    "nl": [
+        {
+            "1": {
+                "name": "Interculturele vaardigheden en attitudes",
+                "subskills": [
+                    {
+                        "name": "Culturele kennis verwerven",
+                        "statements": [
+                            {
+                                "id": 1,
+                                "type": "choice",
+                                "stmt": "Wanneer ik een ander land bezoek, zoek ik er informatie over op (bv. klimaat, cultuur, geografie, ...)."
+                            },
+                            {
+                                "id": 2,
+                                "type": "choice",
+                                "stmt": "Wanneer ik in interactie ga of werk met mensen van een ander land, zoek ik naar informatie over dit land."
+                            },
+                            {
+                                "id": 3,
+                                "type": "choice",
+                                "stmt": "Ik lees buitenlands nieuws en kranten in mijn moedertaal."
+                            },
+                            {
+                                "id": 4,
+                                "type": "choice",
+                                "stmt": "Ik lees buitenlands nieuws en kranten in een andere taal."
+                            },
+                            {
+                                "id": 5,
+                                "type": "choice",
+                                "stmt": "Ik lees boeken van auteurs uiteen andere cultuur."
+                            },
+                            {
+                                "id": 6,
+                                "type": "choice",
+                                "stmt": "Ik blijf op de hoogte van culturele trends in de landen die ik bezoek."
+                            },
+                            {
+                                "id": 7,
+                                "type": "choice",
+                                "stmt": "Ik blijf op de hoogte van de onderwijspraktijken in de verschillende landen die ik bezoek."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Culturele perspectieven begrijpen",
+                        "statements": [
+                            {
+                                "id": 8,
+                                "type": "choice",
+                                "stmt": "Ik begrijp en respecteer mensen met verschillende culturele achtergronden."
+                            },
+                            {
+                                "id": 9,
+                                "type": "choice",
+                                "stmt": "Ik begrijp dat cultuur gedrag kan beïnvloeden en een belangrijke factor is om rekening mee te houden."
+                            },
+                            {
+                                "id": 10,
+                                "type": "choice",
+                                "stmt": "Ik ken de belangrijkste culturele factoren die het gedrag beïnvloeden (bijv. religie, land, sociale klasse)."
+                            },
+                            {
+                                "id": 11,
+                                "type": "choice",
+                                "stmt": "Met betrekking tot een bepaalde cultuur is het voor mij gemakkelijk om vast te stellen welke overeenkomsten er zijn met mijn eigen cultuur en welke aspecten meer verschillend zijn."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Versterken van de eigen culturele identiteit",
+                        "statements": [
+                            {
+                                "id": 12,
+                                "type": "choice",
+                                "stmt": "Ik begrijp de belangrijkste kenmerken van mijn eigen cultuur en weet hoe deze verschilt van andere culturen."
+                            },
+                            {
+                                "id": 13,
+                                "type": "choice",
+                                "stmt": "Als ik in een groep zit met mensen uit verschillende culturen, kan ik vrijuit praten over mijn eigen waarden, mijn afkomst, mijn overtuigingen."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Verbeteren van cultureel begrip",
+                        "statements": [
+                            {
+                                "id": 14,
+                                "type": "choice",
+                                "stmt": "Ik heb veel geleerd over culturele verschillen door het volgen van een internationale online cursus (bijvoorbeeld een MOOC)."
+                            },
+                            {
+                                "id": 15,
+                                "type": "choice",
+                                "stmt": "Ik heb veel geleerd over culturele verschillen door het geven van een internationale online cursus (bijvoorbeeld een MOOC)."
+                            },
+                            {
+                                "id": 16,
+                                "type": "choice",
+                                "stmt": "Ik heb stage gelopen bij een bedrijf in het buitenland."
+                            },
+                            {
+                                "id": 17,
+                                "type": "choice",
+                                "stmt": "Ik heb in het buitenland verbleven in een immersieve omgeving (bv. au pair, in een gezin, voor mijn werk)."
+                            },
+                            {
+                                "id": 18,
+                                "type": "choice",
+                                "stmt": "Ik heb samengewerkt aan een project met collega's uit het buitenland."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cultureel begrip tonen",
+                        "statements": [
+                            {
+                                "id": 19,
+                                "type": "choice",
+                                "stmt": "Ik leer en deel informatie en kennis met mensen met een andere culturele achtergrond."
+                            },
+                            {
+                                "id": 20,
+                                "type": "choice",
+                                "stmt": "Ik zorg ervoor dat de inhoud, methoden, materialen en algemene leerervaring inclusief zijn voor alle studenten en de verwachtingen en ervaringen van cultureel diverse lerenden weerspiegelen."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Het toepassen van intercultureel bewustzijn in cultureel uitdagende omstandigheden",
+                        "statements": [
+                            {
+                                "id": 21,
+                                "type": "choice",
+                                "stmt": "Ik kan gemakkelijk praten met mensen uit verschillende culturen."
+                            },
+                            {
+                                "id": 22,
+                                "type": "choice",
+                                "stmt": "Ik ben me bewust van en houd rekening met de culturele stereotypen van de mensen met wie ik werk."
+                            },
+                            {
+                                "id": 23,
+                                "type": "choice",
+                                "stmt": "Ik heb geleerd om collega's niet te beoordelen zonder eerst te controleren of er een culturele reden is voor hun gedrag."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "name": "Interactief en samenwerkend leren in een authentieke internationale omgeving",
+                "subskills": [
+                    {
+                        "name": "Verbeterde teamworkvaardigheden",
+                        "statements": [
+                            {
+                                "id": 24,
+                                "type": "choice",
+                                "stmt": "In een internationale groep werk ik samen om zo een bepaald doel te bereiken."
+                            },
+                            {
+                                "id": 25,
+                                "type": "choice",
+                                "stmt": "Ik luister aandachtig naar wat andere teamleden te zeggen hebben."
+                            },
+                            {
+                                "id": 26,
+                                "type": "choice",
+                                "stmt": "Ik weet hoe en wanneer ik een breed scala aan processen en methoden in een team moet gebruiken (brainstormen, vragenlijsten, vergaderingen, etc.)."
+                            },
+                            {
+                                "id": 27,
+                                "type": "choice",
+                                "stmt": "Ik faciliteer het bedenken en ontwikkelen van nieuwe ideeën in een internationaal team."
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Samenwerken met collega's uit verschillende disciplines",
+                        "statements": [
+                            {
+                                "id": 28,
+                                "type": "choice",
+                                "stmt": "Ik ben geïnteresseerd in andere disciplines dan de mijne."
+                            },
+                            {
+                                "id": 29,
+                                "type": "choice",
+                                "stmt": "Ik kan kennis uitwisselen met collega's uit andere disciplines dan de mijne."
+                            },
+                            {
+                                "id": 30,
+                                "type": "choice",
+                                "stmt": "Ik kan samenwerken met collega's uit andere disciplines dan de mijne."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Samenwerken met collega's in het kader van een internationale leerervaring",
+                        "statements": [
+                            {
+                                "id": 31,
+                                "type": "choice",
+                                "stmt": "Ik kan samenwerken met collega's in een internationale onderwijssituatie."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interageren met authentieke internationale bronnen in een vreemde taal",
+                        "statements": [
+                            {
+                                "id": 32,
+                                "type": "choice",
+                                "stmt": "In het buitenland kan ik informatie of inhoud in de taal van het land in een bibliotheek en/of online vinden en gebruiken."
+                            },
+                            {
+                                "id": 33,
+                                "type": "choice",
+                                "stmt": "Ik kan gebruik maken van authentieke bronnen (bv. TV- of radioprogramma's, films, artikelen, etc.) in een vreemde taal."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "name": "Autonoom leren",
+                "subskills": [
+                    {
+                        "name": "Tonen van zelfsturing bij het maken van beslissingen over het eigen leren",
+                        "statements": [
+                            {
+                                "id": 34,
+                                "type": "choice",
+                                "stmt": "Ik moedig de lerenden aan om hun eigen leerbehoeften te bepalen en acties te ondernemen om aan deze behoeften tegemoet te komen."
+                            },
+                            {
+                                "id": 35,
+                                "type": "choice",
+                                "stmt": "Ik gebruik een pedagogische aanpak die autonoom leren ondersteunt."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "4": {
+                "name": "Netwerkleren",
+                "subskills": [
+                    {
+                        "name": "Digitaal netwerken",
+                        "statements": [
+                            {
+                                "id": 36,
+                                "type": "choice",
+                                "stmt": "Ik gebruik sociale netwerken zoals Twitter, Facebook, LinkedIn om deel te nemen aan netwerken en om mijn onderwijs te verbeteren."
+                            },
+                            {
+                                "id": 37,
+                                "type": "choice",
+                                "stmt": "Ik gebruik sociale netwerken om samen te werken in een internationale setting."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Omgaan met complexiteit in netwerkleren",
+                        "statements": [
+                            {
+                                "id": 38,
+                                "type": "choice",
+                                "stmt": "Ik ben in staat om mijn eigen onderwijs te verrijken door de bijdragen van deelnemers in genetwerkte leersituaties kritisch te analyseren."
+                            },
+                            {
+                                "id": 39,
+                                "type": "choice",
+                                "stmt": "Ik kan slecht gedefinieerde en complexe problemen die voortkomen uit het samenwerken in een internationale setting aanpakken "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "name": "Media en digitale geletterdheid",
+                "subskills": [
+                    {
+                        "name": "De lerende toont controle over het leren",
+                        "statements": [
+                            {
+                                "id": 40,
+                                "type": "choice",
+                                "stmt": "Ik heb controle over mijn onderwijs- en leeromgeving."
+                            },
+                            {
+                                "id": 41,
+                                "type": "choice",
+                                "stmt": "Ik heb controle over de tijd die ik online doorbreng."
+                            },
+                            {
+                                "id": 42,
+                                "type": "choice",
+                                "stmt": "Ik heb controle over de persoonlijke gegevens die ik gebruik in  online onderwijs."
+                            },
+                            {
+                                "id": 43,
+                                "type": "choice",
+                                "stmt": "Ik heb controle over online interacties met lerenden."
+                            },
+                            {
+                                "id": 44,
+                                "type": "choice",
+                                "stmt": "Ik heb controle over de volgorde waarin het onderwijsmateriaal wordt aangeboden"
+                            },
+                            {
+                                "id": 45,
+                                "type": "choice",
+                                "stmt": "Ik heb controle over de selectie en het ontwerp van de leerinhoud."
+                            },
+                            {
+                                "id": 46,
+                                "type": "choice",
+                                "stmt": "Ik heb controle over het aanleveringsmedium."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vaardig zijn in het gebruik van technologieën voor online leren",
+                        "statements": [
+                            {
+                                "id": 47,
+                                "type": "choice",
+                                "stmt": "Ik ben bedreven in het gebruik van online leermiddelen (bijv. LMS, e-portfolio's)."
+                            },
+                            {
+                                "id": 48,
+                                "type": "choice",
+                                "stmt": "Ik ben bedreven in online communicatiemiddelen (messaging, webconferencing, forum etc.)."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Vaardig zijn in het beoordelen van de kwaliteit van online gevonden cursussen en bronnen",
+                        "statements": [
+                            {
+                                "id": 49,
+                                "type": "choice",
+                                "stmt": "Ik kan online cursussen evalueren op de toegevoegde waarde die ze hebben voor mijn leren."
+                            },
+                            {
+                                "id": 50,
+                                "type": "choice",
+                                "stmt": "Ik kan de kwaliteit van het onderwijsmateriaal dat ik vind beoordelen op de toegevoegde waarde die het heeft voor het leren."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "name": "Actief zelfregulerende vaardigheden van de lerende",
+                "subskills": [
+                    {
+                        "name": "Leerprocessen zelf kunnen reguleren",
+                        "statements": [
+                            {
+                                "id": 51,
+                                "type": "choice",
+                                "stmt": "Wanneer ik een leeractiviteit ontwerp, zorg ik ervoor dat de lerenden hun eigen doelen stellen en hun eigen taken plannen."
+                            },
+                            {
+                                "id": 52,
+                                "type": "choice",
+                                "stmt": "Wanneer ik een leeractiviteit ontwerp, zorg ik ervoor dat de lerenden hun eigen vooruitgang bewaken."
+                            },
+                            {
+                                "id": 53,
+                                "type": "choice",
+                                "stmt": "Wanneer ik een leeractiviteit ontwerp, zorg ik ervoor dat de lerenden zelf nadenken over hun prestatie."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In staat zijn tot zelfreflectie op leerervaringen",
+                        "statements": [
+                            {
+                                "id": 54,
+                                "type": "choice",
+                                "stmt": "Ik kan reflecteren op feedback (positief of negatief) uit eerdere onderwijservaringen."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Het aantonen van eigenaarschap over het eigen leren (attitude)",
+                        "statements": [
+                            {
+                                "id": 55,
+                                "type": "choice",
+                                "stmt": "Ik kan de doelstellingen van de cursus relateren aan de eigen behoeften en doelstellingen van de lerenden."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7": {
+                "name": "Open-mindedness",
+                "subskills": [
+                    {
+                        "name": "Open-minded en tolerant zijn",
+                        "statements": [
+                            {
+                                "id": 56,
+                                "type": "choice",
+                                "stmt": "Ik begrijp waarom de wereldbeelden, overtuigingen of culturen van anderen belangrijk voor hen zijn."
+                            },
+                            {
+                                "id": 57,
+                                "type": "choice",
+                                "stmt": "Ik ben geïnteresseerd om mensen te leren kennen die anders zijn dan ik."
+                            },
+                            {
+                                "id": 58,
+                                "type": "choice",
+                                "stmt": "Ik kan me voorstellen hoe mensen met andere wereldbeelden, overtuigingen of culturen dan mij zullen reageren op belangrijke onderwerpen."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Het tonen van zelfvertrouwen in interactie met leeftijdsgenoten en onderwijzend personeel",
+                        "statements": [
+                            {
+                                "id": 59,
+                                "type": "choice",
+                                "stmt": "Ik creëer een omgeving waarin studenten het gevoel hebben dat ze hun mening kunnen uiten en kunnen omgaan met mogelijke meningsverschillen."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bereid zijn om de beheersing van vreemde talen te verbeteren",
+                        "statements": [
+                            {
+                                "id": 60,
+                                "type": "choice",
+                                "stmt": "Ik heb minstens één vreemde taal geleerd of ben dit aan het leren"
+                            },
+                            {
+                                "id": 61,
+                                "type": "choice",
+                                "stmt": "Ik lees en luister in één of meer vreemde talen."
+                            },
+                            {
+                                "id": 62,
+                                "type": "choice",
+                                "stmt": "Ik probeer waar mogelijk een dialoog in een vreemde taal te voeren."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "8": {
+                "name": "Kennis opdoen van Virtuele Mobiliteit en Open Onderwijs",
+                "subskills": [
+                    {
+                        "name": "Inzicht hebben in Virtuele Mobiliteit",
+                        "statements": [
+                            {
+                                "id": 63,
+                                "type": "choice",
+                                "stmt": "Ik weet wat Virtuele Mobiliteit is."
+                            },
+                            {
+                                "id": 64,
+                                "type": "choice",
+                                "stmt": "Ik ken verschillende Virtuele Mobiliteitsprogramma's."
+                            },
+                            {
+                                "id": 65,
+                                "type": "choice",
+                                "stmt": "Ik ben me ervan bewust dat verschillende vormen van Virtuele Mobiliteit nuttig kunnen zijn voor het leren."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Inzicht hebben in Open Onderwijs",
+                        "statements": [
+                            {
+                                "id": 66,
+                                "type": "choice",
+                                "stmt": "Ik weet wat het begrip Open Onderwijs inhoudt."
+                            },
+                            {
+                                "id": 67,
+                                "type": "choice",
+                                "stmt": "Ik kan de verschillende mogelijkheden van Open Onderwijs benoemen."
+                            },
+                            {
+                                "id": 68,
+                                "type": "choice",
+                                "stmt": "Ik begrijp het verschil tussen Open Onderwijs en andere vormen van online leren."
+                            },
+                            {
+                                "id": 69,
+                                "type": "choice",
+                                "stmt": "Ik ben me bewust van de mogelijkheden van het openstellen van onderwijs."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

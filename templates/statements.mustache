@@ -19,7 +19,7 @@
 }}
 <div id="ovmsurvey-statements-{{uniqid}}" class="ovmsurvey-statements" data-region="ovmsurvey-statements">
     {{#subskills}}
-        <h5 class="ovmsurvey-subcompetency">{{{name}}}</h5>
+        <h4 class="ovmsurvey-subcompetency">{{{name}}}</h4>
 
         <ul>
             {{#statements}}
@@ -28,7 +28,12 @@
         </ul>
     {{/subskills}}
 
-    <a href="review.php?id={{cmid}}" class="btn btn-primary hidden" id="ovmsurvey-review-button">Voir les résultats</a>
+    <div class="hidden" id="ovmsurvey-review">
+        <div class="alert alert-info">{{{survey_end}}}</div>
+        <a href="review.php?id={{cmid}}" class="btn btn-primary btn-lg" id="ovmsurvey-review-button">
+            {{{view_report}}}
+        </a>
+    </div>
 </div>
 {{#js}}
 require(['mod_ovmsurvey/get_answers'], function(GetAnswers) {

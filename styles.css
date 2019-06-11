@@ -83,59 +83,60 @@
 .ovmsurvey-report .table .thead-dark th {
     color: #ffffff;
     background-color: #212529;
-    border-color: #32383e; 
+    border-color: #32383e;
 }
 
 .ovmsurvey-report .table .thead-light th {
     color: #495057;
     background-color: #e9ecef;
-    border-color: #dee2e6; 
+    border-color: #dee2e6;
 }
 .ovmsurvey-report .table .thead-light th h5 {
-    color: #ee559d; 
+    color: #ee559d;
 }
 
 .ovmsurvey-report.combined .ovmsurvey-report-table {
     width: calc(50% - 30px);
-    float: left; 
+    float: left;
 }
 .ovmsurvey-report.combined .ovmsurvey-report-table:first-child {
-    margin-right: 15px; 
+    margin-right: 15px;
 }
 .ovmsurvey-report.combined .ovmsurvey-report-table:last-child {
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 
 .radar-chart {
-    text-align: center; 
+    text-align: center;
 }
-  
+
 .radar-area {
     fill: #ee559d;
 }
-  
+
 .legend {
     fill: #333333;
 }
-  
+
 .tooltip {
     fill: #333333;
 }
-  
+
 .radar-tooltip {
     background: blue;
 }
-  
+
 .tooltips {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted #a0a0a0;
     margin-right: 10px;
 }
+
 .tooltips i.fa {
     color: #a0a0a0;
 }
-  
+
 .tooltips .tooltips-text {
     visibility: hidden;
     min-width: 120px;
@@ -153,7 +154,7 @@
     transition: opacity 0.3s;
     font-size: 12px;
 }
-  
+
 .tooltips .tooltips-text::after {
     content: "";
     position: absolute;
@@ -164,12 +165,12 @@
     border-style: solid;
     border-color: #555 transparent transparent transparent;
 }
-  
+
 .tooltips:hover .tooltips-text {
     visibility: visible;
     opacity: 1;
 }
-  
+
 @media (max-width: 768px) {
     .ovmsurvey-question-row .ovmsurvey-question .ovm-option-list {
         display: flex;
