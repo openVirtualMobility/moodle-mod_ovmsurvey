@@ -1,0 +1,511 @@
+{
+    "en": [
+        {
+            "1": {
+                "name": "Intercultural skills and attitudes",
+                "subskills": [
+                    {
+                        "name": "Gaining cultural knowledge",
+                        "statements": [
+                            {
+                                "id": 1,
+                                "type": "choice",
+                                "stmt": "When I’m going to visit a country, I look for information about it (e.g. climate, culture, geography…)."
+                            },
+                            {
+                                "id": 2,
+                                "type": "choice",
+                                "stmt": "When I’m interacting or working with people from a different country, I search for information about this country."
+                            },
+                            {
+                                "id": 3,
+                                "type": "choice",
+                                "stmt": "I read foreign news and newspapers in my mother tongue."
+                            },
+                            {
+                                "id": 4,
+                                "type": "choice",
+                                "stmt": "I read foreign news and newspapers in a foreign language."
+                            },
+                            {
+                                "id": 5,
+                                "type": "choice",
+                                "stmt": "I read books written by authors from another culture."
+                            },
+                            {
+                                "id": 6,
+                                "type": "choice",
+                                "stmt": "I stay up to date on cultural trends in the countries I visit."
+                            },
+                            {
+                                "id": 7,
+                                "type": "choice",
+                                "stmt": "I stay up to date educational practices in the different countries I visit."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Understanding cultural perspectives",
+                        "statements": [
+                            {
+                                "id": 8,
+                                "type": "choice",
+                                "stmt": "I understand and respect people with different cultural backgrounds."
+                            },
+                            {
+                                "id": 9,
+                                "type": "choice",
+                                "stmt": "I understand that culture may influence behaviour and is an important factor to consider."
+                            },
+                            {
+                                "id": 10,
+                                "type": "choice",
+                                "stmt": "I know the main cultural factors influencing behaviour (e.g. religion, country, social class)."
+                            },
+                            {
+                                "id": 11,
+                                "type": "choice",
+                                "stmt": "With respect to a particular culture, it is easy for me to identify what similarities there are with my own and which aspects are more different."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enhancing own cultural identity",
+                        "statements": [
+                            {
+                                "id": 12,
+                                "type": "choice",
+                                "stmt": "I understand the key characteristics of my own culture and know how it differs from other cultures."
+                            },
+                            {
+                                "id": 13,
+                                "type": "choice",
+                                "stmt": "When I am in a group with people from different cultures, I can talk freely about my own values, my origins, my beliefs."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enhancing cultural understanding",
+                        "statements": [
+                            {
+                                "id": 14,
+                                "type": "choice",
+                                "stmt": "I have learned a lot about cultural differences through following an international online course (e.g. a MOOC)."
+                            },
+                            {
+                                "id": 15,
+                                "type": "choice",
+                                "stmt": "I have learned a lot about cultural differences through teaching an international online course (e.g. a MOOC)."
+                            },
+                            {
+                                "id": 16,
+                                "type": "choice",
+                                "stmt": "I have done an internship in a company abroad."
+                            },
+                            {
+                                "id": 17,
+                                "type": "choice",
+                                "stmt": "I have stayed abroad in an immersive environment (e.g. au pair, in a family, for my job)."
+                            },
+                            {
+                                "id": 18,
+                                "type": "choice",
+                                "stmt": "I have collaborated on a project with peers from abroad."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Demonstrating cultural understanding",
+                        "statements": [
+                            {
+                                "id": 19,
+                                "type": "choice",
+                                "stmt": "I learn and share information and knowledge with people from other cultural backgrounds."
+                            },
+                            {
+                                "id": 20,
+                                "type": "choice",
+                                "stmt": "I ensure that the content, methods, materials and overall learning experience are inclusive for all students and reflect the expectations and experiences of culturally diverse learners."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Applying intercultural awareness in culturally challenging circumstances",
+                        "statements": [
+                            {
+                                "id": 21,
+                                "type": "choice",
+                                "stmt": "I can speak easily with people from different cultures."
+                            },
+                            {
+                                "id": 22,
+                                "type": "choice",
+                                "stmt": "I am aware of and take into account the cultural stereotypes of the people I work with."
+                            },
+                            {
+                                "id": 23,
+                                "type": "choice",
+                                "stmt": "I have learned not to judge a colleague or a peer without first checking if there is a cultural reason for their behaviour."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "2": {
+                "name": "Interactive and collaborative learning in an authentic international environment",
+                "subskills": [
+                    {
+                        "name": "Having enhanced team work skills",
+                        "statements": [
+                            {
+                                "id": 24,
+                                "type": "choice",
+                                "stmt": "In an international group, I cooperate in order to achieve a given objective."
+                            },
+                            {
+                                "id": 25,
+                                "type": "choice",
+                                "stmt": "I listen carefully to what other team members have to say."
+                            },
+                            {
+                                "id": 26,
+                                "type": "choice",
+                                "stmt": "I know how and when to use a wide range of processes and methods used in a team (brainstorming, surveys, meetings, etc.)."
+                            },
+                            {
+                                "id": 27,
+                                "type": "choice",
+                                "stmt": "I facilitate the creation and production of new ideas in an international team."
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Collaborating with peers from different disciplines",
+                        "statements": [
+                            {
+                                "id": 28,
+                                "type": "choice",
+                                "stmt": "I am interested in disciplines other than my own."
+                            },
+                            {
+                                "id": 29,
+                                "type": "choice",
+                                "stmt": "I can exchange knowledge with peers from disciplines other than my own."
+                            },
+                            {
+                                "id": 30,
+                                "type": "choice",
+                                "stmt": "I can collaborate with peers from disciplines other than my own."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Collaborating with peers within the context of an international learning experience",
+                        "statements": [
+                            {
+                                "id": 31,
+                                "type": "choice",
+                                "stmt": "I can engage in collaborative work with peers in an international teaching situation."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Interacting with authentic international resources in a foreign language",
+                        "statements": [
+                            {
+                                "id": 32,
+                                "type": "choice",
+                                "stmt": "In a foreign country, I am able to find and use information or content in a library and/or online, in the language of the country."
+                            },
+                            {
+                                "id": 33,
+                                "type": "choice",
+                                "stmt": "I can use authentic resources (e.g. TV or radio programmes, films, articles etc.) in a foreign language."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "3": {
+                "name": "Autonomy-driven learning",
+                "subskills": [
+                    {
+                        "name": "Demonstrating self-directedness in decision-making on own learning",
+                        "statements": [
+                            {
+                                "id": 34,
+                                "type": "choice",
+                                "stmt": "I encourage learners to set their own learning needs and to organise actions to meet them."
+                            },
+                            {
+                                "id": 35,
+                                "type": "choice",
+                                "stmt": "I use pedagogical approaches which support autonomous learning."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "4": {
+                "name": "Networked learning",
+                "subskills": [
+                    {
+                        "name": "Engaging in digital networking",
+                        "statements": [
+                            {
+                                "id": 36,
+                                "type": "choice",
+                                "stmt": "I use social networks like Twitter, Facebook, LinkedIn to participate in networks and to enhance my teaching."
+                            },
+                            {
+                                "id": 37,
+                                "type": "choice",
+                                "stmt": "I use social networks to collaborate in an international setting."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Dealing with complexity in networked learning",
+                        "statements": [
+                            {
+                                "id": 38,
+                                "type": "choice",
+                                "stmt": "I am able to enrich my own teaching by critically analysing the contributions of participants in networked learning situations."
+                            },
+                            {
+                                "id": 39,
+                                "type": "choice",
+                                "stmt": "I can tackle ill-defined and complex problems arising from collaboration in an international setting."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "5": {
+                "name": "Media and Digital Literacy",
+                "subskills": [
+                    {
+                        "name": "Demonstrating learner control",
+                        "statements": [
+                            {
+                                "id": 40,
+                                "type": "choice",
+                                "stmt": "I can control my teaching and learning environment."
+                            },
+                            {
+                                "id": 41,
+                                "type": "choice",
+                                "stmt": "I can control the time I spend online."
+                            },
+                            {
+                                "id": 42,
+                                "type": "choice",
+                                "stmt": "I have control over the personal data I use in online teaching."
+                            },
+                            {
+                                "id": 43,
+                                "type": "choice",
+                                "stmt": "I can control online interactions with learners."
+                            },
+                            {
+                                "id": 44,
+                                "type": "choice",
+                                "stmt": "I can control the sequencing of instructional material."
+                            },
+                            {
+                                "id": 45,
+                                "type": "choice",
+                                "stmt": "I can control the selection and design of learning content."
+                            },
+                            {
+                                "id": 46,
+                                "type": "choice",
+                                "stmt": "I can control the delivery medium."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Being proficient in using online learning technologies",
+                        "statements": [
+                            {
+                                "id": 47,
+                                "type": "choice",
+                                "stmt": "I am proficient in the use of online learning tools (e.g. LMS, e-portfolios)."
+                            },
+                            {
+                                "id": 48,
+                                "type": "choice",
+                                "stmt": "I am proficient in online communication tools (messaging, web conferencing, forum etc.)."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Being proficient in assessing quality in courses and resources found online",
+                        "statements": [
+                            {
+                                "id": 49,
+                                "type": "choice",
+                                "stmt": "I can evaluate online courses from the point of view of added value for learning."
+                            },
+                            {
+                                "id": 50,
+                                "type": "choice",
+                                "stmt": "I can assess the quality of the educational resources I find from the point of view of added value for learning."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "6": {
+                "name": "Active self-regulated learner skills",
+                "subskills": [
+                    {
+                        "name": "Being able to self-regulate learning processes",
+                        "statements": [
+                            {
+                                "id": 51,
+                                "type": "choice",
+                                "stmt": "When I design a learning activity, I make provisions for learners to set their own goals and plan their own tasks."
+                            },
+                            {
+                                "id": 52,
+                                "type": "choice",
+                                "stmt": "When I design a learning activity, I make provisions for learners to monitor their own progress."
+                            },
+                            {
+                                "id": 53,
+                                "type": "choice",
+                                "stmt": "When I design a learning activity, I make provisions for learners to self-reflect on their achievement."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Being able to self-reflect on learning experiences",
+                        "statements": [
+                            {
+                                "id": 54,
+                                "type": "choice",
+                                "stmt": "I can reflect on feedback (positive or negative) from previous teaching experiences."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Demonstrating ownership over own learning (attitude)",
+                        "statements": [
+                            {
+                                "id": 55,
+                                "type": "choice",
+                                "stmt": "I can relate the course objectives to learners’ own needs and goals."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "7": {
+                "name": "Open-mindedness",
+                "subskills": [
+                    {
+                        "name": "Being open-minded and tolerant",
+                        "statements": [
+                            {
+                                "id": 56,
+                                "type": "choice",
+                                "stmt": "I understand why other people’s worldviews, beliefs or cultures are important to them."
+                            },
+                            {
+                                "id": 57,
+                                "type": "choice",
+                                "stmt": "I am interested in getting to know people who are different to me."
+                            },
+                            {
+                                "id": 58,
+                                "type": "choice",
+                                "stmt": "I can imagine how people with different worldviews, beliefs or cultures from me will react to important issues."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Demonstrating self-confidence in interaction with peers and teaching staff",
+                        "statements": [
+                            {
+                                "id": 59,
+                                "type": "choice",
+                                "stmt": "I create an environment in which students feel they can express opinions and deal with possible disagreement."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Show willingness to improve proficiency in foreign languages",
+                        "statements": [
+                            {
+                                "id": 60,
+                                "type": "choice",
+                                "stmt": "I have learnt/am learning at least one foreign language."
+                            },
+                            {
+                                "id": 61,
+                                "type": "choice",
+                                "stmt": "I read and listen in one or more foreign languages."
+                            },
+                            {
+                                "id": 62,
+                                "type": "choice",
+                                "stmt": "I try whenever possible to have a dialogue in a foreign language."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "8": {
+                "name": "Gaining Knowledge of Virtual Mobility and Open Education",
+                "subskills": [
+                    {
+                        "name": "Understanding Virtual Mobility",
+                        "statements": [
+                            {
+                                "id": 63,
+                                "type": "choice",
+                                "stmt": "I know what virtual mobility is."
+                            },
+                            {
+                                "id": 64,
+                                "type": "choice",
+                                "stmt": "I know of different virtual mobility programmes."
+                            },
+                            {
+                                "id": 65,
+                                "type": "choice",
+                                "stmt": "I am aware of how diverse modalities of virtual mobility can be useful for learning."
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Understanding Open Education",
+                        "statements": [
+                            {
+                                "id": 66,
+                                "type": "choice",
+                                "stmt": "I know what the concept of Open Education entails."
+                            },
+                            {
+                                "id": 67,
+                                "type": "choice",
+                                "stmt": "I can identify the different opportunities offered by Open Education."
+                            },
+                            {
+                                "id": 68,
+                                "type": "choice",
+                                "stmt": "I understand the difference between Open Education and other forms of online learning."
+                            },
+                            {
+                                "id": 69,
+                                "type": "choice",
+                                "stmt": "I am aware of the potential of opening up education."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

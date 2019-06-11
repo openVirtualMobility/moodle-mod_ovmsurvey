@@ -1,0 +1,25 @@
+<div class="ovm-option-list">
+    <div class="tooltips">
+        <i class="fa fa-question-circle"></i>
+        <span class="tooltips-text">
+           {{surveyid}}
+        </span>
+    </div> 
+    <button class="ovm-option" data-id="{{id}}" data-value="1">
+        1
+    </button>
+    <button class="ovm-option" data-id="{{id}}" data-value="2">
+        2
+    </button>
+    <button class="ovm-option" data-id="{{id}}" data-value="3">
+        3
+    </button>
+    <button class="ovm-option" data-id="{{id}}" data-value="4">
+        4
+    </button>
+</div>
+{{#js}}
+require(['mod_ovmsurvey/tick_action'], function(TickAction) {
+    new TickAction('[data-region="ovmsurvey-statements"]', '{{surveyid}}', '{{total}}');
+});
+{{/js}}
