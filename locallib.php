@@ -59,8 +59,8 @@ function get_question_total($skill) {
     return $count;
 }
 
-function get_skills($lang) {
-    $string = file_get_contents(dirname(__FILE__) . '/json/'.$lang.'/students.json');
+function get_skills($lang, $status) {
+    $string = file_get_contents(dirname(__FILE__) . '/json/'.$lang.'/'.$status.'.json');
     $json = json_decode($string, true);
     $data = $json[$lang][0];
     return $data;

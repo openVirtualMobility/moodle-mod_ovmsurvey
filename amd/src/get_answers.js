@@ -41,7 +41,7 @@ function($, ajax, notification) {
 
     GetAnswers.prototype.showReviewButton = function() {
         return $('#ovmsurvey-review').show();
-    }
+    };
 
     return GetAnswers;
 });

@@ -17,7 +17,7 @@
 {{!
     @template mod_ovmsurvey/review
 }}
-<div id="ovmsurvey-review-{{uniqid}}" class="ovmsurvey-review" data-region="ovmsurvey-review">    
+<div id="ovmsurvey-review-{{uniqid}}" class="ovmsurvey-review ovmsurvey-report" data-region="ovmsurvey-review">    
     <table class="table table-striped table-hover table-results mt-5">
         {{#data}}
             <thead class="thead-dark">
@@ -32,18 +32,18 @@
             {{#subskills}}
                 <tbody>
                     {{#name}}
-                    <tr>
+                    <tr class="thead-light">
                         <th colspan="2" scope="col">
                             <h5>{{{name}}}</h5>
                         </th>
                     </tr>
                     {{/name}}
                     {{#statements}}
-                    <tr class="thead-light">
-                        <td>
+                    <tr>
+                        <td scope="row">
                             {{{stmt}}}
                         </td>
-                        <td>
+                        <td scope="row">
                             {{{response}}}
                         </td>
                     </tr>

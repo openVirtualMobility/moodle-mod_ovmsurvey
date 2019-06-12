@@ -1,7 +1,7 @@
 define(['jquery', 'core/str', 'core/ajax', 'core/notification'],
 function($, str, ajax, notification) {
     var Status = function() {
-        st = localStorage.getItem('ovms-status');
+        var st = localStorage.getItem('ovms-status');
 
         if (!st) {
             $('#status_picker').show();
@@ -9,15 +9,10 @@ function($, str, ajax, notification) {
             str.get_string(st, 'ovmsurvey')
                 .done(function(s) {
                     $('#ovm-status').text(s);
-
-                    notification.addNotification({
-                        message: s,
-                        type: 'success'
-                    });
                 });
         }
 
-        $('.status-item').bind('click', function() {
+        $('.status-item').bind('click', function(){
             var status = $(this).data('value');
             localStorage.setItem('ovms-status', status);
 

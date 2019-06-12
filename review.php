@@ -69,7 +69,8 @@ echo $output->render($header);
 // Div to render the radar chart.
 echo '<div class="radar-chart"></div>';
 
-$skills = get_skills($lang);
+$status = get_status();
+$skills = get_skills($lang, $status);
 $datas = build_review_data($skills, $course->id);
 
 // Charts data.

@@ -35,8 +35,8 @@ class review implements renderable, templatable {
         $this->surveyid = $surveyid;
     }
 
-    private static function get_json($lang) {
-        $string = file_get_contents(dirname(__FILE__) . '/../../json/'.$lang.'/students.json');
+    private static function get_json($lang, $status) {
+        $string = file_get_contents(dirname(__FILE__) . '/../../json/'.$lang.'/'.$status.'.json');
         $json = json_decode($string, true);
         $data = $json[$lang][0];
         return $data;
@@ -52,7 +52,8 @@ class review implements renderable, templatable {
         global $CFG, $USER, $DB;
         require_once($CFG->dirroot . '/mod/ovmsurvey/locallib.php');
 
-        $datas = self::get_json($this->lang);
+        $status = get_status();
+        $datas = self::get_json($this->lang, $status);
         $surveys = $DB->get_records('ovmsurvey', array('course' => $this->courseid));
         $dataobject = array();
 

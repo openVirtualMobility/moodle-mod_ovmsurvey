@@ -42,7 +42,7 @@ function($, ajax, notification) {
 
     TickAction.prototype.showReviewButton = function() {
         return $('#ovmsurvey-review').show();
-    }
+    };
 
     return TickAction;
 });
