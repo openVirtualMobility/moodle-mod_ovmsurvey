@@ -24,7 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version  = 2019061107;
+$plugin->version  = 2019061200;
 $plugin->requires = 2010112400;
 $plugin->component = 'mod_ovmsurvey';
 $plugin->cron = 0;
