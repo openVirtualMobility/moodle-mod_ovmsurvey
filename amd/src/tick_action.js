@@ -1,8 +1,9 @@
 define(['jquery', 'core/ajax', 'core/notification'],
 function($, ajax, notification) {
 
-    var TickAction = function(selector, surveyId, total) {
+    var TickAction = function(selector, status, surveyId, total) {
         this._region = $(selector);
+        this._status = status;
         this._surveyid = surveyId;
         this._totalStmts = total;
 
@@ -13,7 +14,7 @@ function($, ajax, notification) {
         var elem = $(element.target);
         var stmtid = elem.data('id');
         var value = elem.data('value');
-        var status = localStorage.getItem('ovms-status');
+        var status = this._status ? this._status : localStorage.getItem('ovms-status');
 
         if (stmtid != "" && value != "") {
             ajax.call([{

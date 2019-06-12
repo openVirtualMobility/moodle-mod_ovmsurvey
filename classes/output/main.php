@@ -64,6 +64,7 @@ class main implements renderable, templatable {
         return [
             'cmid' => $this->cmid,
             'name' => $statements['name'],
+            'status' => $status,
             'surveyid' => $this->surveyid,
             'subskills' => $statements['subskills'],
             'total' => $total,

@@ -42,7 +42,7 @@ function get_status() {
     global $DB, $USER;
 
     $status = $DB->get_record('ovmsurvey_status', array('userid' => $USER->id));
-    if ($status && $status->status) {
+    if ($status && $status->status != '') {
         return $status->status;
     }
 
