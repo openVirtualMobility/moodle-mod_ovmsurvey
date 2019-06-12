@@ -1,0 +1,42 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template mod_ovmsurvey/statements
+}}
+<div id="ovmsurvey-statements-{{uniqid}}" class="ovmsurvey-statements" data-region="ovmsurvey-statements">
+    {{#subskills}}
+        <h4 class="ovmsurvey-subcompetency">{{{name}}}</h4>
+
+        <ul>
+            {{#statements}}
+                {{>mod_ovmsurvey/statement_item}}
+            {{/statements}}
+        </ul>
+    {{/subskills}}
+
+    <div class="hidden" id="ovmsurvey-review">
+        <div class="alert alert-info">{{{survey_end}}}</div>
+        <a href="review.php?id={{cmid}}" class="btn btn-primary btn-lg" id="ovmsurvey-review-button">
+            {{{view_report}}}
+        </a>
+    </div>
+</div>
+{{#js}}
+require(['mod_ovmsurvey/get_answers'], function(GetAnswers) {
+    new GetAnswers('[data-region="ovmsurvey-statements"]', '{{surveyid}}', '{{total}}');
+});
+{{/js}}

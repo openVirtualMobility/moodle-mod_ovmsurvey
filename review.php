@@ -49,7 +49,7 @@ $context = context_module::instance($cm->id);
 require_capability('mod/ovmsurvey:view', $context);
 
 // Print the page header.
-$url = new moodle_url('/mod/ovmsurvey/view.php', array('id' => $cm->id));
+$url = new moodle_url('/mod/ovmsurvey/review.php', array('id' => $cm->id));
 
 $PAGE->set_url($url);
 $PAGE->set_context($context);
@@ -66,9 +66,30 @@ $header = new \mod_ovmsurvey\output\header($survey->name);
 $output = $PAGE->get_renderer('mod_ovmsurvey');
 echo $output->render($header);
 
-$surveyout = new \mod_ovmsurvey\output\main($lang, $cm->id, $survey->id, $survey->skill);
+// Div to render the radar chart.
+echo '<div class="radar-chart"></div>';
+
+$status = get_status();
+$skills = get_skills($lang, $status);
+$datas = build_review_data($skills, $course->id);
+
+// Charts data.
+echo "<script type=\"text/javascript\">";
+echo "var radardata = [[";
+foreach ($datas as $data) {
+    echo $data;
+}
+echo "]];";
+echo "</script>";
+
+// Charts scripts.
+echo "<script src=\"javascript/d3.js\" charset=\"utf-8\"></script>";
+echo "<script src=\"javascript/radar.js\" charset=\"utf-8\"></script>";
+
+// Review table.
+$review = new \mod_ovmsurvey\output\review($lang, $course->id, $survey->id);
 $output = $PAGE->get_renderer('mod_ovmsurvey');
-echo $output->render($surveyout);
+echo $output->render($review);
 
 echo $OUTPUT->box_end();
 echo $OUTPUT->footer();

@@ -47,11 +47,11 @@ class mod_ovmsurvey_mod_form extends moodleform_mod {
             $lang = $CFG->lang;
         }
 
-        $string = file_get_contents(dirname(__FILE__) . '/json/questions_student_' . $lang . '.json');
+        $string = file_get_contents(dirname(__FILE__) . '/json/'.$lang.'/student.json');
         $json = json_decode($string, true);
         $arr = $json[$lang][0];
         $skills = [];
-        foreach($arr as $key => $val) {
+        foreach ($arr as $key => $val) {
             array_push($skills, $val['name']);
         }
 

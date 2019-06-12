@@ -15,22 +15,6 @@ Each instance is responsible of the display of one part (skill) of the survey.
 ## Translations
 
 Translation files are located in the `json` directory.
-In order to add a new translation, 2 files must be provided : 
-- questions_student_`lang`.json
-- questions_teacher_`lang`.json
-
-The Javascript bundle has then to be rebuilt using the command `npm run build`
-
-## Dev
-
-### development 
-```
-npm install
-npm run start
-```
-
-### production
-```
-npm install
-npm run build
-```
+In order to add a new translation, 2 files must be provided for each of the available languages : 
+- student.json
+- teacher.json

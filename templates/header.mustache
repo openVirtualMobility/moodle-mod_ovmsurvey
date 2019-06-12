@@ -1,0 +1,37 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template mod_ovmsurvey/header
+}}
+<div id="ovmsurvey-header-{{uniqid}}" class="ovmsurvey-header" data-region="ovmsurvey-header">
+    <div class="alert alert-info">{{{instructions}}}</div>
+    <h3 class="ovmsurvey-competency">{{{name}}}</h3>
+
+    <div class="col-12">
+        {{{my_status}}} <span id="ovm-status" class="btn btn-secondary">{{{status}}}</span>
+
+        <ul id="status_picker" class="hidden mt-3">
+            <li class="status-item badge badge-secondary p-2" data-value="student">{{{student}}}</li>
+            <li class="status-item badge badge-secondary p-2" data-value="teacher">{{{teacher}}}</li>
+        </ul>
+    </div>
+</div>
+{{#js}}
+require(['mod_ovmsurvey/status'], function(Status) {
+    new Status();
+});
+{{/js}}
